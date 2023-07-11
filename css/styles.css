@@ -113,17 +113,17 @@ footer .logo-studio {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
-.advantages .description {
+.description {
   color: var(--slate, #434455);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 /* Section 3 */
 .works-header {
@@ -133,8 +133,8 @@ footer .logo-studio {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+  line-height: 40px;
+  letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
@@ -149,8 +149,8 @@ footer .logo-studio {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+  line-height: 40px;
+  letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .member {
@@ -173,8 +173,8 @@ footer .logo-studio {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 .footer {
   background-color: #2e2f42;
