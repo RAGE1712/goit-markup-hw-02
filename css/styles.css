@@ -9,22 +9,22 @@ nav .list {
 /* Logo */
 nav .link {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 .logo-studio {
   color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -64,4 +64,34 @@ nav .link {
 .adress .link:hover,
 .adress .link:focus {
   color: #404bbf;
+}
+
+/* Section 1 */
+.solutions {
+  background-color: #2e2f42;
+}
+.solutions .header {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+.solutions .order {
+  background: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.solutions .order:hover,
+.solutions .order:focus {
+  background-color: #404bbf;
 }
