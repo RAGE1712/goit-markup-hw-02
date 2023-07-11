@@ -1,5 +1,21 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --active-link-color: #404bbf;
+  --headings-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-mode-background: #f4f4fd;
+  --overlay-color: #2e2f42;
+  --hero-background: #2e2f42;
+  --primary-background-color: #ffffff;
+  --modal-background: #fcfcfc;
+  --primary-font: "Roboto", sans-serif;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   color: #434455;
   background-color: #ffffff;
 }
@@ -9,7 +25,7 @@ body {
 /* Logo */
 nav .link,
 footer .link {
-  color: var(--iris, #4d5ae5);
+  color: var(--primary-brand-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -20,7 +36,7 @@ footer .link {
   text-decoration: none;
 }
 .logo-studio {
-  color: var(--navyblue, #2e2f42);
+  color: var(--headings-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -30,7 +46,7 @@ footer .link {
   text-transform: uppercase;
 }
 footer .logo-studio {
-  color: var(--cloud, #f4f4fd);
+  color: var(--light-mode-background);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -41,8 +57,8 @@ footer .logo-studio {
 }
 /* Navigation Pannel */
 .navigation .link {
-  color: var(--navyblue, #2e2f42);
-  font-family: "Roboto", sans-serif;
+  color: var(--headings-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -52,7 +68,7 @@ footer .logo-studio {
 }
 .navigation .link:hover,
 .navigation .link:focus {
-  color: #404bbf;
+  color: var(--active-link-color);
 }
 
 /* Contacts */
@@ -63,8 +79,8 @@ footer .logo-studio {
   list-style: none;
 }
 .adress .link {
-  color: var(--slate, #434455);
-  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -74,7 +90,7 @@ footer .logo-studio {
 }
 .adress .link:hover,
 .adress .link:focus {
-  color: #404bbf;
+  color: var(--active-link-color);
 }
 
 /* Section 1 */
@@ -82,9 +98,9 @@ footer .logo-studio {
   background-color: #2e2f42;
 }
 .solutions .header {
-  color: var(--white, #fff);
+  color: var(--primary-background-color);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -92,9 +108,9 @@ footer .logo-studio {
   letter-spacing: 1.12px;
 }
 .solutions .order-button {
-  background: var(--iris, #4d5ae5);
-  color: var(--white, #fff);
-  font-family: "Roboto", sans-serif;
+  background: var(--primary-brand-color);
+  color: var(--primary-background-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -108,8 +124,8 @@ footer .logo-studio {
 }
 /* Section 2 */
 .advantages {
-  color: var(--navyblue, #2e2f42);
-  font-family: "Roboto", sans-serif;
+  color: var(--headings-color);
+  font-family: var(--primary-font);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -117,8 +133,8 @@ footer .logo-studio {
   letter-spacing: 0.4px;
 }
 .description {
-  color: var(--slate, #434455);
-  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -127,9 +143,9 @@ footer .logo-studio {
 }
 /* Section 3 */
 .works-header {
-  color: var(--navyblue, #2e2f42);
+  color: var(--headings-color);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -143,9 +159,9 @@ footer .logo-studio {
   background-color: #f4f4fd;
 }
 .team-header {
-  color: var(--navyblue, #2e2f42);
+  color: var(--headings-color);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -157,9 +173,9 @@ footer .logo-studio {
   background-color: #ffffff;
 }
 .team-name {
-  color: var(--navyblue, #2e2f42);
+  color: var(--headings-color);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -167,9 +183,9 @@ footer .logo-studio {
   letter-spacing: 0.02em;
 }
 .team-position {
-  color: var(--slate, #434455);
+  color: var(--text-color);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -182,8 +198,8 @@ footer .logo-studio {
   background-color: #2e2f42;
 }
 .motto {
-  color: var(--cloud, #f4f4fd);
-  font-family: "Roboto", sans-serif;
+  color: var(--light-mode-background);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -194,10 +210,10 @@ footer .logo-studio {
 /* Portfolio */
 
 .filter {
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
+  background: var(--light-mode-background);
+  color: var(--primary-brand-color);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -214,8 +230,8 @@ footer .logo-studio {
   text-decoration: none;
 }
 .projects {
-  color: var(--navyblue, #2e2f42);
-  font-family: "Roboto", sans-serif;
+  color: var(--headings-color);
+  font-family: var(--primary-font);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -223,8 +239,8 @@ footer .logo-studio {
   letter-spacing: 0.4px;
 }
 .project-type {
-  color: var(--slate, #434455);
-  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
