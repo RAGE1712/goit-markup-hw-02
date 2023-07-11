@@ -159,7 +159,7 @@ footer .logo-studio {
 .team-name {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -169,21 +169,62 @@ footer .logo-studio {
 .team-position {
   color: var(--slate, #434455);
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
 }
+
+/* Footer */
 .footer {
   background-color: #2e2f42;
 }
 .motto {
   color: var(--cloud, #f4f4fd);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
 
-  /* Body */
-  font-family: Roboto;
+/* Portfolio */
+
+.filter {
+  background: var(--cloud, #f4f4fd);
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.link {
+  text-decoration: none;
+}
+.projects {
+  color: var(--navyblue, #2e2f42);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.project-type {
+  color: var(--slate, #434455);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
