@@ -3,34 +3,11 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-:root .link {
-  text-decoration: none;
-}
-.list {
+nav .list {
   list-style: none;
 }
-.navigation {
-  color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-.adress {
-  font-style: normal;
-}
-.contacts-email .contacts-phone {
-  color: var(--slate, #434455);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-.logo-web {
+/* Logo */
+nav .link {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
@@ -39,6 +16,7 @@ body {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-studio {
   color: var(--navyblue, #2e2f42);
@@ -50,7 +28,8 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-nav li a {
+/* Navigation Pannel */
+.navigation .link {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
@@ -58,50 +37,21 @@ nav li a {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-}
-nav li a:active {
-  color: var(--ocean, #404bbf);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-ul {
-  list-style-type: none;
-}
-a {
   text-decoration: none;
-  color: #2e2f42;
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: #404bbf;
 }
 
-button {
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
-}
-button:focus,
-button:hover {
-  background: var(--iris, #4d5ae5);
-}
-button:active {
-  background: var(--ocean, #404bbf);
-}
-
-.filter button {
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
+/* Contacts */
+.adress {
   font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
 }
-
-ul a p {
+.adress .list {
+  list-style: none;
+}
+.adress .link {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
@@ -109,130 +59,9 @@ ul a p {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
-ul a h3 {
-  color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-footer {
-  background: var(--navyblue, #2e2f42);
-}
-footer p {
-  color: var(--cloud, #f4f4fd);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-.solutions {
-  background: var(--navyblue, #2e2f42);
-}
-
-main h1 {
-  color: var(--white, #fff);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
-}
-
-main button {
-  background: var(--iris, #4d5ae5);
-
-  color: var(--white, #fff);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-}
-
-main button:focus,
-main button:active {
-  background: var(--iris, #4d5ae5);
-
-  color: var(--white, #fff);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-}
-main button:hover {
-  background: var(--ocean, #404bbf);
-  color: var(--white, #fff);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-}
-.benefits h3 {
-  color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-.benefits p {
-  color: var(--slate, #434455);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-main h2 {
-  color: var(--navyblue, #2e2f42);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
-.team {
-  background: var(--cloud, #f4f4fd);
-}
-.team ul h3 {
-  color: var(--navyblue, #2e2f42);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-
-.team ul p {
-  color: var(--slate, #434455);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-.team li {
-  background: var(--white, #fff);
+.adress .link:hover,
+.adress .link:focus {
+  color: #404bbf;
 }
