@@ -13,6 +13,19 @@
   --modal-background: #fcfcfc;
   --primary-font: "Roboto", sans-serif;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 body {
   font-family: var(--primary-font);
@@ -55,8 +68,8 @@ footer .logo-studio {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-/* Navigation Pannel */
-.navigation .link {
+/**------------------- Navigation Pannel -----------*/
+.navigation-link {
   color: var(--headings-color);
   font-family: var(--primary-font);
   font-size: 16px;
@@ -66,12 +79,12 @@ footer .logo-studio {
   letter-spacing: 0.32px;
   text-decoration: none;
 }
-.navigation .link:hover,
-.navigation .link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--active-link-color);
 }
 
-/* Contacts */
+/**------------------- Contacts ----------------- */
 .adress {
   font-style: normal;
 }
@@ -83,7 +96,6 @@ footer .logo-studio {
   font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration: none;
@@ -93,7 +105,7 @@ footer .logo-studio {
   color: var(--active-link-color);
 }
 
-/* Section 1 */
+/**----------------- Section 1 ----------------*/
 .solutions {
   background-color: #2e2f42;
 }
@@ -122,12 +134,11 @@ footer .logo-studio {
 .solutions .order-button:focus {
   background-color: #404bbf;
 }
-/* Section 2 */
+/**----------------------- Section 2 ----------------*/
 .advantages {
   color: var(--headings-color);
   font-family: var(--primary-font);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -136,25 +147,22 @@ footer .logo-studio {
   color: var(--text-color);
   font-family: var(--primary-font);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-/* Section 3 */
+/**--------------------- Section 3 -----------------*/
 .works-header {
   color: var(--headings-color);
   text-align: center;
   font-family: var(--primary-font);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
-/* Section 4 */
+/**--------------- Section 4 -------------*/
 .team {
   background-color: #f4f4fd;
 }
@@ -163,7 +171,6 @@ footer .logo-studio {
   text-align: center;
   font-family: var(--primary-font);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
@@ -177,7 +184,6 @@ footer .logo-studio {
   text-align: center;
   font-family: var(--primary-font);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -187,13 +193,11 @@ footer .logo-studio {
   text-align: center;
   font-family: var(--primary-font);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
 }
 
-/* Footer */
+/**------------------ Footer ----------------------*/
 .footer {
   background-color: #2e2f42;
 }
@@ -201,13 +205,11 @@ footer .logo-studio {
   color: var(--light-mode-background);
   font-family: var(--primary-font);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
 
-/* Portfolio */
+/**--------------------- Portfolio ----------------*/
 
 .filter {
   background: var(--light-mode-background);
@@ -215,7 +217,6 @@ footer .logo-studio {
   text-align: center;
   font-family: var(--primary-font);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
@@ -233,7 +234,6 @@ footer .logo-studio {
   color: var(--headings-color);
   font-family: var(--primary-font);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -242,8 +242,6 @@ footer .logo-studio {
   color: var(--text-color);
   font-family: var(--primary-font);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
