@@ -13,20 +13,9 @@
   --modal-background: #fcfcfc;
   --primary-font: "Roboto", sans-serif;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.link {
+  text-decoration: none;
 }
-
 body {
   font-family: var(--primary-font);
   color: #434455;
@@ -36,8 +25,7 @@ body {
   list-style: none;
 }
 /* Logo */
-nav .link,
-footer .link {
+.logo {
   color: var(--primary-brand-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
